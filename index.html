@@ -57,13 +57,42 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Ipsum sed dolor</h2>
+										<h2>Common Questions</h2>
 									</header>
 									<div class="posts">
 										<article>
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<h3>OOP</h3>
+											<p>I do not fully understand classes. I have read the python documentation and several other tutorials. I get the basic gist of it but don't understand the nuance. For instance in my code here:
+
+class whiteroom():
+    """ Pick a door: red, blue, green, or black. """
+
+    do = raw_input("> ")
+
+    if "red" in do:
+        print "You entered the red room."
+
+    elif "blue" in do:
+        print "You entered the blue room."
+
+    elif "green" in do:
+        print "You entered the green room."
+
+    elif "black" in do:
+        print "You entered the black room."
+
+    else:
+        print "You sit patiently but slowly begin to stave.  You're running out of time."
+        return whiteroom()
+
+game = whiteroom()
+game
+(original codepad)
+
+I would like to return the class whiteroom. Which is, either not possible, or not being done correctly. If you could clear up how to return a class or how to "link" two classes together so that whiteroom repeats on the else and the other rooms (which would be classes) are returned when called that would be awesome.
+
+Also I'm super shaky on __init__ and am still not really sure what its purpose is. Everyone keeps telling me that it "initializes", which I'm sure it does, but that doesn't seem to be helping my brain out.</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
